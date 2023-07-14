@@ -1,0 +1,105 @@
+15:50:51.502 [main] INFO  c.b.config.BrowserStackConfig - INFO
+11:27:55.488 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+11:27:55.493 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+11:27:55.776 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\eguar\OneDrive\CrossBrowserTest\browserstack.yml
+11:27:55.860 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+11:27:55.869 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+11:28:01.799 [main] INFO  c.b.config.BrowserStackConfig - INFO
+11:28:20.189 [main] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/pf7oyhpam5rcyvhbafsf49cqlrhsmwltatlhkddl to view build report, insights, and many more debugging information all at one place!
+
+11:28:20.193 [Thread-0] WARN  c.browserstack.utils.UtilityMethods - Unable to show build URL, as build capability is not used
+11:28:20.194 [Thread-0] INFO  c.b.config.BrowserStackConfig - WARN
+11:39:24.324 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+11:39:24.328 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+11:39:24.652 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\eguar\OneDrive\CrossBrowserTest\browserstack.yml
+11:39:24.733 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+11:39:24.743 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+11:39:30.617 [main] INFO  c.b.config.BrowserStackConfig - ERROR
+11:39:30.912 [main] INFO  c.b.config.BrowserStackConfig - INFO
+11:39:32.972 [Thread-0] WARN  c.browserstack.utils.UtilityMethods - Unable to show build URL, as build capability is not used
+11:39:32.972 [Thread-0] INFO  c.b.config.BrowserStackConfig - WARN
+11:43:22.491 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+11:43:22.495 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+11:43:22.805 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\eguar\OneDrive\CrossBrowserTest\browserstack.yml
+11:43:22.881 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+11:43:22.889 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+11:43:28.968 [main] INFO  c.b.config.BrowserStackConfig - INFO
+11:43:50.518 [main] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/nfk7uhggekdslyq8ogrekgzpk0pytexpytkxg5kp to view build report, insights, and many more debugging information all at one place!
+
+11:43:50.522 [Thread-0] WARN  c.browserstack.utils.UtilityMethods - Unable to show build URL, as build capability is not used
+11:43:50.522 [Thread-0] INFO  c.b.config.BrowserStackConfig - WARN
+11:50:35.799 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+11:50:35.806 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+11:50:36.157 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\eguar\OneDrive\CrossBrowserTest\browserstack.yml
+11:50:36.245 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+11:50:36.255 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+11:50:42.762 [Thread-0] WARN  c.browserstack.utils.UtilityMethods - Unable to show build URL, as build capability is not used
+11:50:42.763 [Thread-0] INFO  c.b.config.BrowserStackConfig - WARN
+11:52:14.260 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+11:52:14.264 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+11:52:14.540 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\eguar\OneDrive\CrossBrowserTest\browserstack.yml
+11:52:14.617 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+11:52:14.625 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+11:52:20.377 [main] INFO  c.b.config.BrowserStackConfig - INFO
+11:52:31.719 [TestGoogle-0@0] ERROR c.browserstack.utils.UtilityMethods - Mark Session Name failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionName","arguments":{"name":"BitConsulting.TestDemo2-titleCheck"}}, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 14.1.2, optimalHubUrl: hub-use.browserstack.com, platformName: mac, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 20G314, safari:platformVersion: 11.6.2, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webdriver.remote.sessionid: 03a4ad369ee505e974216a43754..., webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+11:52:33.171 [titleCheck@0] ERROR c.browserstack.utils.UtilityMethods - Mark Session Status failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionStatus","arguments":{"reason":"","status":"passed"}}, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 14.1.2, optimalHubUrl: hub-use.browserstack.com, platformName: mac, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 20G314, safari:platformVersion: 11.6.2, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webdriver.remote.sessionid: 03a4ad369ee505e974216a43754..., webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+11:52:39.061 [TestGoogle-1@1] ERROR c.browserstack.utils.UtilityMethods - Mark Session Name failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionName","arguments":{"name":"BitConsulting.TestDemo2-titleCheck"}}, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 102.0, moz:accessibilityChecks: false, moz:buildID: 20220623063721, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:processID: 15312, moz:profile: C:\Windows\proxy\rust_mozpr..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, optimalHubUrl: hub-use.browserstack.com, pageLoadStrategy: normal, platformName: windows, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: e594b542f1dc2876b9e33d4a316...}
+11:52:40.948 [titleCheck@1] ERROR c.browserstack.utils.UtilityMethods - Mark Session Status failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionStatus","arguments":{"reason":"","status":"passed"}}, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 102.0, moz:accessibilityChecks: false, moz:buildID: 20220623063721, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:processID: 15312, moz:profile: C:\Windows\proxy\rust_mozpr..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, optimalHubUrl: hub-use.browserstack.com, pageLoadStrategy: normal, platformName: windows, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: e594b542f1dc2876b9e33d4a316...}
+11:52:51.952 [main] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/mykyvkozysfkp87ebnvmdhofy0bgi6slh5l4kkzy to view build report, insights, and many more debugging information all at one place!
+
+11:52:51.957 [Thread-0] WARN  c.browserstack.utils.UtilityMethods - Unable to show build URL, as build capability is not used
+11:52:51.957 [Thread-0] INFO  c.b.config.BrowserStackConfig - WARN
+11:55:22.581 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.10.0
+11:55:22.586 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+11:55:22.891 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\eguar\OneDrive\CrossBrowserTest\browserstack.yml
+11:55:22.967 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+11:55:22.975 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+11:55:28.983 [main] INFO  c.b.config.BrowserStackConfig - INFO
+11:55:40.041 [TestGoogle-0@0] ERROR c.browserstack.utils.UtilityMethods - Mark Session Name failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionName","arguments":{"name":"BitConsulting.TestDemo2-titleCheckGoogle"}}, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 14.1.2, optimalHubUrl: hub-use.browserstack.com, platformName: mac, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 20G314, safari:platformVersion: 11.6.2, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webdriver.remote.sessionid: ef76d70b18d96dcf276ad2f631f..., webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+11:55:41.466 [titleCheckGoogle@0] ERROR c.browserstack.utils.UtilityMethods - Mark Session Status failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionStatus","arguments":{"reason":"","status":"passed"}}, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 14.1.2, optimalHubUrl: hub-use.browserstack.com, platformName: mac, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 20G314, safari:platformVersion: 11.6.2, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webdriver.remote.sessionid: ef76d70b18d96dcf276ad2f631f..., webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+11:55:46.589 [TestGoogle-1@1] ERROR c.browserstack.utils.UtilityMethods - Mark Session Name failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionName","arguments":{"name":"BitConsulting.TestDemo2-titleCheckGoogle"}}, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 102.0, moz:accessibilityChecks: false, moz:buildID: 20220623063721, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:processID: 15080, moz:profile: C:\Windows\proxy\rust_mozpr..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, optimalHubUrl: hub-use.browserstack.com, pageLoadStrategy: normal, platformName: windows, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 2210a83d6ac8dda41d04068567c...}
+11:55:48.030 [titleCheckGoogle@1] ERROR c.browserstack.utils.UtilityMethods - Mark Session Status failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionStatus","arguments":{"reason":"","status":"passed"}}, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 102.0, moz:accessibilityChecks: false, moz:buildID: 20220623063721, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:processID: 15080, moz:profile: C:\Windows\proxy\rust_mozpr..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, optimalHubUrl: hub-use.browserstack.com, pageLoadStrategy: normal, platformName: windows, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 2210a83d6ac8dda41d04068567c...}
+11:55:57.948 [main] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/vb0bva7vczibgci563fwpr2slaweie3itgxz5htu to view build report, insights, and many more debugging information all at one place!
+
+11:55:57.953 [Thread-0] WARN  c.browserstack.utils.UtilityMethods - Unable to show build URL, as build capability is not used
+11:55:57.953 [Thread-0] INFO  c.b.config.BrowserStackConfig - WARN
