@@ -22,6 +22,10 @@ public class TestDemo {
 
 
             driver.get("https://bit-consulting.org/");
+
+            System.out.println(driver.getTitle()+"1");
+            System.out.println(driver.getTitle()+"2");
+
             Assert.assertTrue(driver.getTitle().contains("BIT Consulting"));
         }
 
