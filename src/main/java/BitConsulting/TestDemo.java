@@ -25,6 +25,8 @@ public class TestDemo {
 
             System.out.println(driver.getTitle()+"3");
             System.out.println(driver.getTitle()+"4");
+            System.out.println("code development test 1");
+            System.out.println("code development test 2");
 
             Assert.assertTrue(driver.getTitle().contains("BIT Consulting"));
         }

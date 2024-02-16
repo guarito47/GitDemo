@@ -9,8 +9,5 @@
         <module name="CrossBrowserTest" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="CrossBrowserTest" target="17" />
-    </bytecodeTargetLevel>
   </component>
 </project>
