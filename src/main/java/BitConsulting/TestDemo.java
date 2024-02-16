@@ -30,6 +30,20 @@ public class TestDemo {
 
             Assert.assertTrue(driver.getTitle().contains("BIT Consulting"));
         }
+        @Test
+        public void newTestDemo() throws MalformedURLException {
+            MutableCapabilities caps = new MutableCapabilities();
+            WebDriver driver =  new RemoteWebDriver(new URL("https://hub.browserstack.com/wd/hub"), caps);
 
+
+            driver.get("https://bit-consulting.org/");
+
+            System.out.println(driver.getTitle()+"3");
+            System.out.println(driver.getTitle()+"4");
+            System.out.println("code development test 1");
+            System.out.println("code development test 2");
+
+            Assert.assertTrue(driver.getTitle().contains("BIT Consulting"));
+        }
 
 }

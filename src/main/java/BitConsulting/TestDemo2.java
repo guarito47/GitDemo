@@ -24,5 +24,16 @@ public class TestDemo2 {
             Assert.assertTrue(driver.getTitle().matches("Google"));
         }
 
+        @Test
+        public void newTestCase() throws MalformedURLException {
+            MutableCapabilities caps = new MutableCapabilities();
+            WebDriver driver =  new RemoteWebDriver(new URL("https://hub.browserstack.com/wd/hub"), caps);
+
+
+            driver.get("https://google.com/");
+            System.out.println("test developmet 3");
+            Assert.assertTrue(driver.getTitle().matches("Google"));
+        }
+
 
 }
