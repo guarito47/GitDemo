@@ -18,7 +18,7 @@ public class TestDemo3 {
             MutableCapabilities caps = new MutableCapabilities();
             WebDriver driver =  new RemoteWebDriver(new URL("https://hub.browserstack.com/wd/hub"), caps);
 
-            /*new version from gitspace*/
+            /*new version from gitspace into branch development*/
             driver.get("https://google.com/");
             System.out.println("test developmet 3");
             Assert.assertTrue(driver.getTitle().matches("Google"));
