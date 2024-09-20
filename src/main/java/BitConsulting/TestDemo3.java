@@ -10,7 +10,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 
-public class TestDemo2 {
+public class TestDemo3 {
 
 
         @Test
@@ -18,7 +18,7 @@ public class TestDemo2 {
             MutableCapabilities caps = new MutableCapabilities();
             WebDriver driver =  new RemoteWebDriver(new URL("https://hub.browserstack.com/wd/hub"), caps);
 
-            /*new version 9/20/2024*/
+            /*new version from gitspace*/
             driver.get("https://google.com/");
             System.out.println("test developmet 3");
             Assert.assertTrue(driver.getTitle().matches("Google"));
